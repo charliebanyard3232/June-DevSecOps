@@ -4,8 +4,8 @@ provider "aws" {
 resource "aws_s3_bucket" "terraformbuckettodayjune" {
   bucket = "terraformbuckettodayjune"
 }
-resource "aws_s3_bucket" "terraformbuckettodayjune2" {
-  bucket = "terraformbuckettodayjune2"
+resource "aws_s3_bucket" "terraformbuckettodayjune225" {
+  bucket = "terraformbuckettodayjune225"
 }
 terraform {
   backend "s3" {
